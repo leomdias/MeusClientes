@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MeusClientes</string>
+    <string name="detalhes_do_cliente">Detalhes do Cliente</string>
+    <string name="nome_aqui">Nome Aqui</string>
+    <string name="email">Email</string>
+    <string name="site">Site</string>
+    <string name="voltar">Voltar</string>
+    <string name="meus_clientes">Meus Clientes</string>
+    <string name="baixar_lista_da_internet">Baixar Lista da Internet</string>
+    <string name="nome_do_cliente">Nome do Cliente</string>
+    <string name="email_teste_com">email@teste.com</string>
+</resources>

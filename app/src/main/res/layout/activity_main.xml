@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- 1. Título do Aplicativo -->
+
+    <!-- 2. Botão para iniciar o Download (Thread) -->
+    <!-- O ID "btnCarregar" é usado no MainActivity.java -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:text="@string/meus_clientes"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnCarregar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2196F3"
+        android:text="@string/baixar_lista_da_internet"
+        android:textColor="#000000"
+        tools:ignore="VisualLintButtonSize" />
+
+    <!-- 3. A Lista de Clientes (RecyclerView) -->
+    <!-- O ID "listaClientes" é usado no MainActivity.java -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listaClientes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:scrollbars="vertical" />
+
+</LinearLayout>
